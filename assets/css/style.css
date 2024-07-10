@@ -244,7 +244,7 @@ p {
 
 /* Support part css start */
 .support {
-    background: url(../images/handshake.jpg);
+    background: linear-gradient(90deg, black , rgba(0, 0, 0, 0.08)),url(../images/handshake.jpg);
     padding: 94px 48px;
     text-align: center;
     background-size: cover;
