@@ -25,10 +25,17 @@ a {
 }
 
 .common-title {
-    color: rgba(13, 19, 33, 0.7);
+    color: rgb(13, 19, 33);
     font-family: "Azeret Mono", monospace;
     font-size: 24px;
     font-weight: 700;
+}
+
+.common-subtitle {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .common-paragraph {
@@ -142,17 +149,55 @@ header {
 }
 
 /* Inspiration part Css start */
-.inspiration{
+.inspiration {
     text-align: center;
 }
+
 .inspiration-video {
     padding: 16px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
-.inspiration > p{
+
+.inspiration>p {
     margin: 24px 0 48px;
 }
 
+/* Current Target part css start */
+.current-target {
+    text-align: center;
+    margin: 150px 0 110px;
+}
+
+.current-target-description {
+    padding: 0 144px;
+}
+.current-target-cardItems{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.current-target-description>p {
+    margin: 24px 0 48px;
+}
+
+.current-target-card {
+    padding: 40px;
+    text-align: left;
+    border-radius: 16px;
+    width: 32%;
+}
+.current-target-card img, h3, p{
+    margin-bottom: 20px;
+}
+.current-curd01{
+    background-color: rgb(255, 247, 244);
+}
+.current-curd02{
+    background-color: rgb(242, 246, 254);
+}
+.current-curd03{
+    background-color: rgb(255, 253, 242);
+}
 /* main part css end */
