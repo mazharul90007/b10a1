@@ -154,9 +154,11 @@ header {
 .inspiration {
     text-align: center;
 }
-.inspiration-description{
+
+.inspiration-description {
     padding: 0 144px;
 }
+
 .inspiration-video {
     padding: 16px;
     box-sizing: border-box;
@@ -164,7 +166,7 @@ header {
     border-radius: 16px;
 }
 
-.inspiration>p {
+.inspiration-description > p {
     margin: 24px 0 48px;
 }
 
@@ -251,6 +253,7 @@ p {
     border-radius: 16px;
     margin-bottom: 80px;
 }
+
 .support-input {
     display: flex;
     justify-content: center;
@@ -279,22 +282,25 @@ p {
 
 /* main part css end */
 /* footer part css start */
-footer{
+footer {
     background-color: rgb(247, 248, 248);
     padding: 32px 150px;
 }
-.footer-item{
+
+.footer-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
 }
-.footer-icons{
+
+.footer-icons {
     list-style: none;
     display: flex;
     gap: 24px;
